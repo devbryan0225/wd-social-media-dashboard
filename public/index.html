@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./build/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Social Media Dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="theme-light bg-smd">
+  <main class="container mx-auto px-8 pt-12 pb-8">
+    <div class="mb-16 sm:flex items-center justify-between">
+      <div>
+        <h2 class="font-extrabold text-4xl text-smd-primary">Social Media Dashboard</h2>
+        <h6 class="font-bold text-2xl text-smd-secondary">Total Followers: 23,004</h6>
+      </div>
+      
+      <hr class="my-8 border-1 border-gray-500 md:hidden">
+      <div class="flex items-center justify-between">
+        <label for="toggle-theme" class="font-bold text-2xl md:text-base text-smd-secondary">Dark Mode</label>
+        <div>
+          <div class="cursor-pointer px-4">
+            <label class="switch">
+              <input id="toggle-theme" class="transform scale-150 cursor-pointer" type="checkbox">
+              <span class="slider round"></span>
+            </label>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="sm:flex">
+      <div class="flex flex-col flex-1 justify-center items-center cursor-pointer mb-12 md:mx-2 bg-smd-card hover:bg-smd-card-hover ease-in-out duration-300 rounded-md border-t-8 border-blue-500 p-6">
+        <div class="flex pt-4 justify-center items-center">
+          <div class="m-2">
+            <img class="h-8" src="./images/icon-facebook.svg" alt="facebook" />
+          </div>
+
+          <label for="" class="font-bold text-xl text-smd-secondary">@nathanf</label>
+        </div>
+        <h1 class="font-extrabold text-8xl md:text-7xl text-smd-primary tracking-tighter m-0">1987</h1>
+        <label class="uppercase tracking-widestest text-smd-secondary mb-4" for="">followers</label>
+        <label class="flex items-center justify-center mb-4 font-semibold text-green-500" for="">
+          <div class="m-2">
+            <img class="" src="./images/icon-up.svg" />
+          </div>
+          12 Today
+        </label>
+      </div>
+
+      <div
+        class="flex flex-col flex-1 justify-center items-center cursor-pointer mb-12 md:mx-2 bg-smd-card hover:bg-smd-card-hover ease-in-out duration-300 rounded-md border-t-8 border-blue-400 p-6">
+        <div class="flex pt-4 justify-center items-center">
+          <div class="m-2">
+            <img class="h-8" src="./images/icon-twitter.svg" alt="twitter" />
+          </div>
+
+          <label for="" class="font-bold text-xl text-smd-secondary">@nathanf</label>
+        </div>
+        <h1 class="font-extrabold text-8xl md:text-7xl text-smd-primary tracking-tighter m-0">1044</h1>
+        <label class="uppercase tracking-widestest text-smd-secondary mb-4" for="">followers</label>
+        <label class="flex items-center justify-center mb-4 font-semibold text-green-500" for="">
+          <div class="m-2">
+            <img class="" src="./images/icon-up.svg" />
+          </div>
+          99 Today
+        </label>
+      </div>
+
+      <div style="border:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);"
+        class="flex flex-col flex-1 justify-center items-center cursor-pointer mb-12 md:mx-2 bg-smd-card hover:bg-smd-card-hover ease-in-out duration-300 rounded-md border-t-8 border-blue-400 p-6">
+        <div class="flex pt-4 justify-center items-center">
+          <div class="m-2">
+            <img class="h-8" src="./images/icon-instagram.svg" alt="instagram" />
+          </div>
+
+          <label for="" class="font-bold text-xl text-smd-secondary">@realnathanf</label>
+        </div>
+        <h1 class="font-extrabold text-8xl md:text-7xl text-smd-primary tracking-tighter m-0">11k</h1>
+        <label class="uppercase tracking-widestest text-smd-secondary mb-4" for="">followers</label>
+        <label class="flex items-center justify-center mb-4 font-semibold text-green-500" for="">
+          <div class="m-2">
+            <img class="" src="./images/icon-up.svg" />
+          </div>
+          1099 Today
+        </label>
+      </div>
+
+      <div
+        class="flex flex-col flex-1 justify-center items-center cursor-pointer mb-12 md:mx-2 bg-smd-card hover:bg-smd-card-hover ease-in-out duration-300 rounded-md border-t-8 border-red-700 p-6">
+        <div class="flex pt-4 justify-center items-center">
+          <div class="m-2">
+            <img class="h-8" src="./images/icon-youtube.svg" alt="youtube" />
+          </div>
+
+          <label for="" class="font-bold text-xl text-smd-secondary">Nathan F.</label>
+        </div>
+        <h1 class="font-extrabold text-8xl md:text-7xl text-smd-primary tracking-tighter m-0">8239</h1>
+        <label class="uppercase tracking-widestest text-smd-secondary mb-4" for="">subscribers</label>
+        <label class="flex items-center justify-center mb-4 font-semibold text-red-500" for="">
+          <div class="m-2">
+            <img class="" src="./images/icon-down.svg" />
+          </div>
+          144 Today
+        </label>
+      </div>
+    </div>
+
+
+
+    <div>
+      <h2 class="font-extrabold text-4xl text-smd-overview mb-8">Overview - Today</h2>
+
+      <div class="overview-container sm:flex sm:flex-row flex-wrap">
+        <div class="bg-smd-card rounded-md pt-12 pb-6 px-8 mb-8 md:flex-fit-4 md:mx-3 cursor-pointer flex justify-between hover:bg-smd-card-hover ease-in-out duration-300">
+          <div class="flex flex-col">
+            <label for="" class="text-xl text-smd-secondary mb-8 font-bold">Page Views</label>
+            <label for="" class="text-5xl text-smd-primary font-extrabold">87</label>
+          </div>
+          <div class="flex flex-col justify-between items-center">
+            <div>
+              <img class="h-8" src="./images/icon-facebook.svg" />
+            </div>
+            <label class="flex items-center justify-center mb-4 text-xl font-semibold text-green-500" for="">
+              <div class="m-2">
+                <img class="" src="./images/icon-up.svg" />
+              </div>
+              3%
+            </label>
+          </div>
+        </div>
+
+        <div class="bg-smd-card rounded-md pt-12 pb-6 px-8 mb-8 md:flex-fit-4 md:mx-3 cursor-pointer flex justify-between hover:bg-smd-card-hover ease-in-out duration-300">
+          <div class="flex flex-col">
+            <label for="" class="text-xl text-smd-secondary mb-8 font-bold">Likes</label>
+            <label for="" class="text-5xl text-smd-primary font-extrabold">52</label>
+          </div>
+          <div class="flex flex-col justify-between items-center">
+            <div>
+              <img class="h-8" src="./images/icon-facebook.svg" />
+            </div>
+            <label class="flex items-center justify-center mb-4 text-xl font-semibold text-red-500" for="">
+              <div class="m-2">
+                <img class="" src="./images/icon-down.svg" />
+              </div>
+              2%
+            </label>
+          </div>
+        </div>
+
+
+        <div class="bg-smd-card rounded-md pt-12 pb-6 px-8 mb-8 md:flex-fit-4 md:mx-3 cursor-pointer flex justify-between hover:bg-smd-card-hover ease-in-out duration-300">
+          <div class="flex flex-col">
+            <label for="" class="text-xl text-smd-secondary mb-8 font-bold">Likes</label>
+            <label for="" class="text-5xl text-smd-primary font-extrabold">5462</label>
+          </div>
+          <div class="flex flex-col justify-between items-center">
+            <div>
+              <img class="h-8" src="./images/icon-instagram.svg" />
+            </div>
+            <label class="flex items-center justify-center mb-4 text-xl font-semibold text-green-500" for="">
+              <div class="m-2">
+                <img class="" src="./images/icon-up.svg" />
+              </div>
+              2257%
+            </label>
+          </div>
+        </div>
+
+        <div class="bg-smd-card rounded-md pt-12 pb-6 px-8 mb-8 md:flex-fit-4 md:mx-3 cursor-pointer flex justify-between hover:bg-smd-card-hover ease-in-out duration-300">
+          <div class="flex flex-col">
+            <label for="" class="text-xl text-smd-secondary mb-8 font-bold">Profile Views</label>
+            <label for="" class="text-5xl text-smd-primary font-extrabold">52k</label>
+          </div>
+          <div class="flex flex-col justify-between items-center">
+            <div>
+              <img class="h-8" src="./images/icon-instagram.svg" />
+            </div>
+            <label class="flex items-center justify-center mb-4 text-xl font-semibold text-green-500" for="">
+              <div class="m-2">
+                <img class="" src="./images/icon-up.svg" />
+              </div>
+              1375%
+            </label>
+          </div>
+        </div>
+
+        <div class="bg-smd-card rounded-md pt-12 pb-6 px-8 mb-8 md:flex-fit-4 md:mx-3 cursor-pointer flex justify-between hover:bg-smd-card-hover ease-in-out duration-300">
+          <div class="flex flex-col">
+            <label for="" class="text-xl text-smd-secondary mb-8 font-bold">Retweets</label>
+            <label for="" class="text-5xl text-smd-primary font-extrabold">117</label>
+          </div>
+          <div class="flex flex-col justify-between items-center">
+            <div>
+              <img class="h-8" src="./images/icon-twitter.svg" />
+            </div>
+            <label class="flex items-center justify-center mb-4 text-xl font-semibold text-green-500" for="">
+              <div class="m-2">
+                <img class="" src="./images/icon-up.svg" />
+              </div>
+              303%
+            </label>
+          </div>
+        </div>
+
+        <div class="bg-smd-card rounded-md pt-12 pb-6 px-8 mb-8 md:flex-fit-4 md:mx-3 cursor-pointer flex justify-between hover:bg-smd-card-hover ease-in-out duration-300">
+          <div class="flex flex-col">
+            <label for="" class="text-xl text-smd-secondary mb-8 font-bold">Likes</label>
+            <label for="" class="text-5xl text-smd-primary font-extrabold">507</label>
+          </div>
+          <div class="flex flex-col justify-between items-center">
+            <div>
+              <img class="h-8" src="./images/icon-twitter.svg" />
+            </div>
+            <label class="flex items-center justify-center mb-4 text-xl font-semibold text-green-500" for="">
+              <div class="m-2">
+                <img class="" src="./images/icon-up.svg" />
+              </div>
+              553%
+            </label>
+          </div>
+        </div>
+
+        <div class="bg-smd-card rounded-md pt-12 pb-6 px-8 mb-8 md:flex-fit-4 md:mx-3 cursor-pointer flex justify-between hover:bg-smd-card-hover ease-in-out duration-300">
+          <div class="flex flex-col">
+            <label for="" class="text-xl text-smd-secondary mb-8 font-bold">Likes</label>
+            <label for="" class="text-5xl text-smd-primary font-extrabold">107</label>
+          </div>
+          <div class="flex flex-col justify-between items-center">
+            <div>
+              <img class="h-8" src="./images/icon-youtube.svg" />
+            </div>
+            <label class="flex items-center justify-center mb-4 text-xl font-semibold text-red-500" for="">
+              <div class="m-2">
+                <img class="" src="./images/icon-down.svg" />
+              </div>
+              19%
+            </label>
+          </div>
+        </div>
+
+        <div class="bg-smd-card rounded-md pt-12 pb-6 px-8 mb-8 md:flex-fit-4 md:mx-3 cursor-pointer flex justify-between hover:bg-smd-card-hover ease-in-out duration-300">
+          <div class="flex flex-col">
+            <label for="" class="text-xl text-smd-secondary mb-8 font-bold">Total Views</label>
+            <label for="" class="text-5xl text-smd-primary font-extrabold">1407</label>
+          </div>
+          <div class="flex flex-col justify-between items-center">
+            <div>
+              <img class="h-8" src="./images/icon-youtube.svg" />
+            </div>
+            <label class="flex items-center justify-center mb-4 text-xl font-semibold text-red-500" for="">
+              <div class="m-2">
+                <img class="" src="./images/icon-down.svg" />
+              </div>
+              12%
+            </label>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    </div>
+
+  </main>
+
+  <div class="attribution text-smd-secondary">
+    Challenge by <a class="text-smd-primary" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+      Mentor</a>.
+    Coded by <a class="text-smd-primary" href="https://bryanyeo.dev">Bryan Yeo</a>.
+  </div>
+  <script>
+    document.getElementById("toggle-theme").addEventListener("click", function () {
+      document.querySelector("body").classList.toggle("theme-light");
+      document.querySelector("body").classList.toggle("theme-dark");
+    })
+  </script>
+</body>
+
+</html>

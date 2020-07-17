@@ -1,0 +1,17 @@
+{
+  "name": "wd-social-media-dashboard",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/style.css -o public/build/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.4",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
